@@ -5,7 +5,7 @@
 <web-app>
   <display-name>Train Ticket Booking</display-name>
   <servlet>
- <servlet-name>trainbooking</servlet-name>
+ <servlet-name>trainBooking</servlet-name>
  <servlet-class>
   org.springframework.web.servlet.DispatcherServlet
  </servlet-class>
@@ -13,7 +13,7 @@
 </servlet>
  
 <servlet-mapping>
- <servlet-name>trainbooking</servlet-name>
+ <servlet-name>trainBooking</servlet-name>
  <url-pattern>/</url-pattern>
 </servlet-mapping>
 </web-app>

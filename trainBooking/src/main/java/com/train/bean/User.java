@@ -15,13 +15,17 @@ public class User {
 	private Date dateOfBirth;
 	
 	
+	public User()
+	{
+		
+	}
 	public User(String emailId, String name, String password, String mobileNo, Date dateOfBirth) {
 		super();
 		this.emailId = emailId;
 		this.name = name;
 		this.password = password;
 		this.mobileNo = mobileNo;
-		this.dateOfBirth = dateOfBirth;
+		this.dateOfBirth = (Date) dateOfBirth;
 	}
 	public String getId() {
 		return id;
